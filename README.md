@@ -1,23 +1,6 @@
 # Customer Data Cleansing
 
 Clean and format the customer call list, which is stored in an Excel file. It employs various data cleaning techniques to ensure the data is standardized and ready for use.
-Usage
-
-    Ensure you have Python installed on your system.
-    Install the required dependencies by running:
-
-pip install pandas openpyxl
-
-Download the script file (clean_customer_data.py) and the Excel file (Customer Call List.xlsx).
-Update the file path in the script to point to your Excel file:
-
-python
-
-df = pd.read_excel(r"YOUR_FILE_PATH\Customer Call List.xlsx")
-
-Run the script using Python:
-
-    python clean_customer_data.py
 
 Data Cleaning Steps
 
